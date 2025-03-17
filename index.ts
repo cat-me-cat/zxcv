@@ -4,6 +4,8 @@ import path from "path";
 import { Request, Response } from "express";
 import pages from "./src/pages.json";
 
+console.log('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
+
 const [app, listen] = new ChemicalServer();
 
 const __dirname = path.resolve();
